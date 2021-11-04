@@ -17,20 +17,21 @@ function App() {
             <BarChart />
           </div>
           <div className="col-sm-6">
-            <h5 className="text-center text-secundary">Taxa de sucesso (%)</h5>
-            <DonutChart />
-          </div>
+            <h5 className="text-center text-secundary">Todas vendas</h5>
+          <DonutChart />
         </div>
-
-        <div className="py-3">
-          <h2 className="text-primary">Todas vendas</h2>
-        </div>
-
-        <DataTable />
       </div>
-      <Footer />
+
+      <div className="py-3">
+        <h2 className="text-primary">Todas vendas</h2>
+      </div>
+
+      <DataTable />
+      </div>
+    <Footer />
     </>
   );
+
 }
 
 export default App;
